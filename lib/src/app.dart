@@ -6,10 +6,12 @@ import 'package:contador/src/pages/contador_page.dart';
 
 class MyApp extends StatelessWidget {
 
+  //Required method to override the StatelessWidget code
   @override
   Widget build( context ) {
 
     return MaterialApp(
+      //To remove the banner top right
       debugShowCheckedModeBanner: false,
       home: Center(
         // child: HomePage(),
